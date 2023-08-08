@@ -16,8 +16,6 @@ mod QuestsNftContract {
     use openzeppelin::token::erc721::interface;
     use openzeppelin::token::erc721::erc721::ERC721;
     use openzeppelin::introspection::src5::SRC5;
-    // use openzeppelin::access::ownable::ownable::Ownable;
-    // use openzeppelin::access::ownable::interface::IOwnable;
     use option::OptionTrait;
     use traits::Into;
     use starknet::ContractAddress;
